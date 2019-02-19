@@ -1,5 +1,7 @@
 # vuejstest
 
+a simple todolist demo use Vue.js
+
 ## Project setup
 ```
 npm install
