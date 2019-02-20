@@ -1,7 +1,7 @@
 <template>
-    <div id='input'>
+    <div id='dataInput'>
         <p>
-        <input type="text" v-model="inputVal"/>
+        <input type="text" v-model="inputVal" placeholder="add todo item"/>
         <button v-on:click="btnClick">commit</button>
         </p>
     </div>
@@ -9,7 +9,7 @@
 
 <script>
     export default {
-        name: "Input",
+        name: "DataInput",
         data: function () {
             return {
                 'inputVal': ''
